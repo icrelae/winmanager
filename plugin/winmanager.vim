@@ -271,7 +271,7 @@ function! <SID>StartWindowsManager()
 		let cen = 1
 		" for now assume that the explorer windows always stay on the left.
 		" TODO: make this optional later
-		wincmd H
+		wincmd L
 		" set up the correct width
 		exe g:winManagerWidth.'wincmd |'
 	end
@@ -1099,6 +1099,7 @@ function! <SID>CloseWindowsManager()
 	let s:commandRunning = 1
 
 	let i = 1
+	exec "NERDTreeToggle"
 	while i <= bufnr('$')
 		let explNum = s:IsExplorerBuffer(i)
 		if explNum > 0 && bufwinnr(i) != -1

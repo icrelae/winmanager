@@ -2,6 +2,10 @@ This is a mirror of http://www.vim.org/scripts/script.php?script_id=95
 
 winmanager: A classical windows type environment for vim6.0 
 
+Note: I've do some tricks to make NERD Tree integrate with winmanager. See also 
+nerdtree of my repo. Just install them following the README. Not suitable for 
+using them separately!
+
 Snapshot                 : http://robotics.eecs.berkeley.edu/~srinath/vim/snapshot2.JPG 
 Detailed Instructions : http://robotics.eecs.berkeley.edu/~srinath/vim/winmanager.htm 
 Upates                    : http://robotics.eecs.berkeley.edu/~srinath/vim/winmanager-2.0.htm 
