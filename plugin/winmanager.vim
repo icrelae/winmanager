@@ -274,6 +274,8 @@ function! <SID>StartWindowsManager()
 		wincmd L
 		" set up the correct width
 		exe g:winManagerWidth.'wincmd |'
+		setlocal nonumber
+		setlocal norelativenumber
 	end
 
 	" now we are on one of the explorers. time to redo the original layout.
